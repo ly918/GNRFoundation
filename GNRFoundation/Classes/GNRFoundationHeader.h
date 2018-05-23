@@ -8,13 +8,13 @@
 #ifndef GNRFoundationHeader_h
 #define GNRFoundationHeader_h
 
-#import <GNRFoundation/CALayer+Factory.h>
-#import <GNRFoundation/NSString+FirstLetter.h>
-#import <GNRFoundation/UIBarButtonItem+Factory.h>
-#import <GNRFoundation/UIColor+Hex.h>
-#import <GNRFoundation/UIImage+Fix.h>
-#import <GNRFoundation/UIView+Factory.h>
-#import <GNRFoundation/UIView+GNRSafeArea.h>
-#import <GNRFoundation/NSObject+TKObject.h>
+#import "CALayer+Factory.h"
+#import "NSString+FirstLetter.h"
+#import "UIBarButtonItem+Factory.h"
+#import "UIColor+Hex.h"
+#import "UIImage+Fix.h"
+#import "UIView+Factory.h"
+#import "UIView+GNRSafeArea.h"
+#import "NSObject+TKObject.h"
 
 #endif /* GNRFoundationHeader_h */
