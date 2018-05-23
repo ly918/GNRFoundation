@@ -33,6 +33,7 @@
 		8132C3B220B53A330080FD69 /* NSObject+TKObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8132C3AF20B53A330080FD69 /* NSObject+TKObject.h */; };
 		8132C3B320B53A330080FD69 /* NSObject+TKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8132C3B020B53A330080FD69 /* NSObject+TKObject.m */; };
 		8132C3B420B53A330080FD69 /* NSObject+TKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8132C3B020B53A330080FD69 /* NSObject+TKObject.m */; };
+		8132C3F120B575F80080FD69 /* GNRFoundationHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8132C3F020B575F80080FD69 /* GNRFoundationHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83C12E88EA7011C6B8AE5B1AA698BE18 /* Pods-GNRFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 151F57E224269F6914D6CB42E49B7215 /* Pods-GNRFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
 		8BB1C03104EC221CA57678A06CD37BA2 /* UIView+GNRSafeArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 45EA3DA3C6938A5B4D865DFC531769DA /* UIView+GNRSafeArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -122,6 +123,7 @@
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8132C3AF20B53A330080FD69 /* NSObject+TKObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+TKObject.h"; path = "GNRFoundation/Classes/NSObject+TKObject.h"; sourceTree = "<group>"; };
 		8132C3B020B53A330080FD69 /* NSObject+TKObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TKObject.m"; path = "GNRFoundation/Classes/NSObject+TKObject.m"; sourceTree = "<group>"; };
+		8132C3F020B575F80080FD69 /* GNRFoundationHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GNRFoundationHeader.h; path = GNRFoundation/Classes/GNRFoundationHeader.h; sourceTree = "<group>"; };
 		858A3994E3968ACAC1C7DE614E2CE8A1 /* Pods-GNRFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNRFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		88A660EE08B77A88A93E34CA77942B27 /* UIView+Factory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Factory.m"; path = "GNRFoundation/Classes/UIView+Factory.m"; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 		7468D0DAA8B0311432A251A2C28D3B8B /* GNRFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				8132C3F020B575F80080FD69 /* GNRFoundationHeader.h */,
 				6A2858C045F287ACA339BFDD60C3BA59 /* CALayer+Factory.h */,
 				62C35DC8BB736353F30F87B80F4867DB /* CALayer+Factory.m */,
 				DF454A44DE08712D723CABF2825632FB /* NSString+FirstLetter.h */,
@@ -404,6 +407,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8132C3F120B575F80080FD69 /* GNRFoundationHeader.h in Headers */,
 				AB677F0A1FBCA5D6039DEF2A729DB401 /* CALayer+Factory.h in Headers */,
 				8132C3B220B53A330080FD69 /* NSObject+TKObject.h in Headers */,
 				DA232636A6AEFCF150D13E90391036D6 /* GNRFoundation-umbrella.h in Headers */,
