@@ -7,6 +7,7 @@
 //
 
 #import "GNRViewController.h"
+#import <GNRFoundation/GNRFoundationHeader.h>
 
 @interface GNRViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UIColor *color = [UIColor colorWithHexString:@"#111111"];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
