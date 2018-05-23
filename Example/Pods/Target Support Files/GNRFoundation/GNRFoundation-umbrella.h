@@ -11,7 +11,7 @@
 #endif
 
 #import "CALayer+Factory.h"
-#import "GNRFoundationHeader.h"
+#import "GNRFoundation.h"
 #import "NSObject+TKObject.h"
 #import "NSString+FirstLetter.h"
 #import "UIBarButtonItem+Factory.h"

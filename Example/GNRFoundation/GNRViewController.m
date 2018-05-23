@@ -7,7 +7,7 @@
 //
 
 #import "GNRViewController.h"
-#import <GNRFoundation/GNRFoundationHeader.h>
+#import <GNRFoundation/GNRFoundation.h>
 
 @interface GNRViewController ()
 
