@@ -5,8 +5,7 @@
 //  Created by Luca on 2018/5/23.
 //
 
-#ifndef GNRFoundation_h
-#define GNRFoundation_h
+#import <Foundation/Foundation.h>
 
 #import "CALayer+Factory.h"
 #import "NSObject+TKObject.h"
@@ -16,6 +15,3 @@
 #import "UIImage+Fix.h"
 #import "UIView+Factory.h"
 #import "UIView+GNRSafeArea.h"
-
-
-#endif /* GNRFoundation_h */
