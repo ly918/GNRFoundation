@@ -1,9 +1,9 @@
 {
   "name": "GNRFoundation",
-  "version": "0.1.0",
-  "summary": "A short description of GNRFoundation.",
+  "version": "0.2.0",
+  "summary": "好东西都在这里了.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ly918@qq.com/GNRFoundation",
+  "homepage": "https://github.com/ly918/GNRFoundation",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "ly918@qq.com": "ly918@qq.com"
   },
   "source": {
-    "git": "https://github.com/ly918@qq.com/GNRFoundation.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/ly918/GNRFoundation.git",
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
