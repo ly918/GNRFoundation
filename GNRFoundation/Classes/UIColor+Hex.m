@@ -17,54 +17,6 @@
     return [UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:alpha];
 }
 
-+ (UIColor *)mainTintColor{
-    return [UIColor colorWithR:98 g:134 b:254 a:1];
-}
-
-+ (UIColor *)yellowColor_FECF26{
-    return [UIColor colorWithHexString:@"#FECF26"];
-}
-
-+ (UIColor *)largeTitleColor_474753{
-    return [UIColor colorWithHexString:@"#474753"];
-}
-
-+ (UIColor *)navigationBarTitleColor_51{
-    return [UIColor cancelItemTintColor_51];
-}
-
-+ (UIColor *)cancelItemTintColor_51{
-    return [UIColor colorWithR:51 g:51 b:51 a:1];
-}
-
-+ (UIColor *)backgroundColor_246{
-    return [UIColor colorWithR:246 g:246 b:246 a:1];
-}
-
-+ (UIColor *)backgroundColor_F3F3F7{
-    return [UIColor colorWithHexString:@"#F3F3F7"];
-}
-
-+ (UIColor *)textColor_161{
-    return [UIColor colorWithR:161 g:161 b:161 a:1];
-}
-
-+ (UIColor *)textColor_243{
-    return [UIColor colorWithR:243 g:243 b:243 a:1];
-}
-
-+ (UIColor *)textColor_Field_161{
-    return [UIColor colorWithR:161 g:161 b:161 a:1];
-}
-
-+ (UIColor *)onTintColor_Switch{
-    return [UIColor colorWithR:113 g:144 b:249 a:1];
-}
-
-+ (UIColor *)separatorColor_231{
-    return [UIColor colorWithR:231 g:231 b:231 a:1];
-}
-
 + (UIColor*) colorWithHex:(long)hexColor{
     return [UIColor colorWithHex:hexColor alpha:1.];
 }

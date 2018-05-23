@@ -15,30 +15,6 @@
 
 + (UIColor *)randColor;//随机
 
-+ (UIColor *)mainTintColor;//主题风格颜色
-
-+ (UIColor *)yellowColor_FECF26;
-
-+ (UIColor *)navigationBarTitleColor_51;
-
-+ (UIColor *)cancelItemTintColor_51;// cancel item颜色
-
-+ (UIColor *)backgroundColor_246;//背景灰
-
-+ (UIColor *)backgroundColor_F3F3F7;
-
-+ (UIColor *)largeTitleColor_474753;
-
-+ (UIColor *)textColor_243;
-
-+ (UIColor *)textColor_161;//文字灰
-
-+ (UIColor *)textColor_Field_161;//输入框文字颜色
-
-+ (UIColor *)onTintColor_Switch;//开关
-
-+ (UIColor *)separatorColor_231;//分割线颜色
-
 // 透明度固定为1，以0x开头的十六进制转换成的颜色
 + (UIColor *)colorWithHex:(long)hexColor;
 
