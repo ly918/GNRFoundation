@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GNRFoundation_Example' do
+  pod 'GNRFoundation', :path => '../'
+
+  target 'GNRFoundation_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
