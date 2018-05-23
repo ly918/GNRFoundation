@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GNRFoundation'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '好东西都在这里了.'
 
 # This description is used to generate tags and improve search results.
