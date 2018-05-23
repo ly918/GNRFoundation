@@ -1,0 +1,6 @@
+framework module Pods_GNRFoundation_Tests {
+  umbrella header "Pods-GNRFoundation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
