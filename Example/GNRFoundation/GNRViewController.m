@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
     UIColor *color = [UIColor colorWithHexString:@"#111111"];
-    
+    self.view.backgroundColor = color;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

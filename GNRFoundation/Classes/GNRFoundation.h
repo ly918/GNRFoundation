@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #import "CALayer+Factory.h"
 #import "NSObject+TKObject.h"

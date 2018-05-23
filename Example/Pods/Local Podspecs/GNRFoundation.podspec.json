@@ -1,6 +1,6 @@
 {
   "name": "GNRFoundation",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "summary": "好东西都在这里了.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ly918/GNRFoundation",
@@ -13,10 +13,14 @@
   },
   "source": {
     "git": "https://github.com/ly918/GNRFoundation.git",
-    "tag": "0.2.2"
+    "tag": "0.2.3"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "GNRFoundation/Classes/**/*"
+  "source_files": "GNRFoundation/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
 }

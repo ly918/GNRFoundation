@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GNRFoundation'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.summary          = '好东西都在这里了.'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
 end
