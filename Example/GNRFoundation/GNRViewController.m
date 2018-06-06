@@ -20,6 +20,9 @@
     [super viewDidLoad];
     UIColor *color = [UIColor colorWithHexString:@"#111111"];
     self.view.backgroundColor = color;
+    
+    NSAttributedString *attStr = [NSString t_changeCorlorWithColor:[UIColor redColor] TotalString:nil SubStringArray:@[]];
+    NSLog(@"AttStr %@",attStr);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
