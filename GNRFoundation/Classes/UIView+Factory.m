@@ -61,7 +61,7 @@
 }
 
 /**
- 设置阴影:直角
+ 设置阴影path:直角
  
  @param offset 阴影偏移量
  @param opacity 阴影透明度
@@ -72,7 +72,7 @@
 }
 
 /**
- 设置阴影:圆角
+ 设置阴影path:圆角
  
  @param offset 阴影偏移量
  @param opacity 阴影透明度
@@ -86,6 +86,33 @@
     self.layer.shadowOffset = offset;
     self.layer.shadowOpacity = opacity;
     self.layer.shadowRadius = radius;
+}
+
+/**
+ 设置layer阴影:圆角
+ 
+ @param offset 阴影偏移量
+ @param opacity 阴影透明度
+ @param radius 阴影扩散范围
+ */
+- (void)setShadowOffset:(CGSize)offset opacity:(CGFloat)opacity radius:(CGFloat)radius{
+    [self setShadowOffset:offset opacity:opacity radius:radius cornerRadius:0];
+}
+
+/**
+ 设置layer阴影:圆角
+ 
+ @param offset 阴影偏移量
+ @param opacity 阴影透明度
+ @param radius 阴影扩散范围
+ @param cornerRadius 圆角
+ */
+- (void)setShadowOffset:(CGSize)offset opacity:(CGFloat)opacity radius:(CGFloat)radius cornerRadius:(CGFloat)cornerRadius{
+    self.layer.shadowColor = [UIColor blackColor].CGColor;
+    self.layer.shadowOffset = offset;
+    self.layer.shadowOpacity = opacity;
+    self.layer.shadowRadius = radius;
+    self.layer.cornerRadius = cornerRadius;
 }
 
 #pragma mark - 设置部分圆角
