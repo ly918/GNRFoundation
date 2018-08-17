@@ -10,6 +10,7 @@
 #import <MapKit/MapKit.h>
 @interface UIView (Factory)
 
+#pragma mark - 控件 -
 + (MKMapView *)mapViewMK;
 
 + (UIButton *)buttonWithTitle:(NSString *)title
@@ -29,6 +30,26 @@
               textAlignment:(NSTextAlignment)textAlignment;
 
 + (UIImageView *)imageViewWithImage:(UIImage *)image;
+
+#pragma mark - 阴影 -
+/**
+ 设置layer阴影:圆角
+ 
+ @param offset 阴影偏移量
+ @param opacity 阴影透明度
+ @param radius 阴影扩散范围
+ */
+- (void)setShadowOffset:(CGSize)offset opacity:(CGFloat)opacity radius:(CGFloat)radius;
+
+/**
+ 设置layer阴影:圆角
+ 
+ @param offset 阴影偏移量
+ @param opacity 阴影透明度
+ @param radius 阴影扩散范围
+ @param cornerRadius 圆角
+ */
+- (void)setShadowOffset:(CGSize)offset opacity:(CGFloat)opacity radius:(CGFloat)radius cornerRadius:(CGFloat)cornerRadius;
 
 /**
  设置阴影:直角
@@ -51,7 +72,7 @@
  */
 - (void)addShadowOffset:(CGSize)offset opacity:(CGFloat)opacity radius:(CGFloat)radius cornerRadius:(CGFloat)cornerRadius;
 
-#pragma mark - 设置部分圆角
+#pragma mark - 设置部分圆角 -
 /**
  *  设置部分圆角(绝对布局)
  *
