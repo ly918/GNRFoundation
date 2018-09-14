@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - GNRFoundation (0.2.6)
+  - GNRFoundation (0.3.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GNRFoundation: cc4314c7f4f78f7c6d90df4ebfca6ec464a63519
+  GNRFoundation: e4395b264a583da1b4c26ac992c785199dbd54b2
 
 PODFILE CHECKSUM: bc44c2ade786aeb51d4e952b30ffaa51adcf6a73
 
